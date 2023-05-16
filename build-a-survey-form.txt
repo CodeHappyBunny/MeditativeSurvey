@@ -1,0 +1,108 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html><head>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body><h1 id="title">Meditative Self Care Survey
+    </h1>
+    <p id="description">Please help us better understand, the self-care habits of our users.</p>
+    <form id="survey-form">
+     <fieldset class="about"> <legend>Tell us a little about yourself:</legend><div><label id="name-label">Your Name</label><input id="name" type="text" placeholder="first and last name" required></div>
+        <div><label id="email-label"> Your Email </label><input id="email" type="email" placeholder="email here please" required></div>
+        <div><label id="number-label"> Your Age </label><input id="number" type="number" min="21" max="100" placeholder="age"></div></fieldset>
+        <fieldset class="mood">
+          <legend id="dropdown-label">How are you currently feeling?</legend>
+          <select id="dropdown">
+          <option>Your mood</option>
+          <option>Peaceful</option>
+          <option>Depressed</option>
+          <option>Stressed Out</option>
+          <option>Happy</option>
+          <option>Anxious</option>
+          <option>Content</option>
+          <option>Excited</option>
+          </select>
+        </fieldset>
+          <fieldset class="feeling">
+          <legend>Please select how often you feel this way:
+          </legend>
+          <div>
+          <label>Super frequently, everyday</label><input type="radio" name="feeling" value="1"></div>
+          <div><label>Frequently, every other day</label><input type="radio" name="feeling" value="2"></div>
+          <div><label>Often, few times a week</label><input type="radio" name="feeling" value="3"></div>
+          <div><label>Seldom, once a week</label><input type="radio" name="feeling" value="4"></div>
+          <div><label>Rarely, once a month</label><input type="radio" name="feeling" value="5"></div></fieldset>
+<fieldset class="activities"><legend>What are your self-care activities? </legend>
+<input type="checkbox" value="1" name="selfcare"><label>Meditation</label>
+<input type="checkbox" value="2" name="selfcare"><label>Spa Day</label>
+<input type="checkbox" value="3" name="selfcare"><label>Exercise</label>
+<input type="checkbox" value="4" name="selfcare"><label>Fun Outing</label>
+<input type="checkbox" value="5" name="selfcare"><label>Gardening</label>
+<input type="checkbox" value="6" name="selfcare"><label>Journaling</label>
+</fieldset>
+<fieldset class="addmore"><legend>Feel free to add more about your self-care routine here:</legend><textarea placeholder="Elaborate about your self-care habits" id="comments" name="comments"></textarea></fieldset>
+<button id="submit" type="submit" class="button">Submit</button>
+      </form>
+    </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  text-align: center;
+  color: darkgreen;
+  background-color: lightgreen;
+}
+form{
+  margin: auto;
+  padding: 0.50;
+}
+div{
+  margin: auto;
+  padding: 8;
+}
+.activities input{
+  display:inline;
+  margin: auto;
+}
+.about input{
+  color: darkgreen;
+background-color:#EBF9A9;
+border-color:#6A7535;
+}
+.about{
+  border-color: darkgreen;
+}
+.mood select{
+  color: darkgreen;
+  background-color: #EBF9A9;
+  border-color: #6A7535;
+}
+.mood{
+  border-color: darkgreen;
+}
+.feeling{
+  border-color: darkgreen;
+}
+.activities{
+  border-color: darkgreen;
+
+}
+.addmore{
+  border-color: darkgreen;
+}
+.addmore textarea{ border-color:#6A7535; 
+background-color: #EBF9A9 
+}
+.button{
+background-color:darkgreen;
+margin: 8;
+color: lightgreen;
+border-color: darkgreen;
+}
+
+** end of undefined **
+
