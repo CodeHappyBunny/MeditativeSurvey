@@ -1,0 +1,52 @@
+body{
+  text-align: center;
+  color: darkgreen;
+  background-color: lightgreen;
+}
+form{
+  margin: auto;
+  padding: 0.50;
+}
+div{
+  margin: auto;
+  padding: 8;
+}
+.activities input{
+  display:inline;
+  margin: auto;
+}
+.about input{
+  color: darkgreen;
+background-color:#EBF9A9;
+border-color:#6A7535;
+}
+.about{
+  border-color: darkgreen;
+}
+.mood select{
+  color: darkgreen;
+  background-color: #EBF9A9;
+  border-color: #6A7535;
+}
+.mood{
+  border-color: darkgreen;
+}
+.feeling{
+  border-color: darkgreen;
+}
+.activities{
+  border-color: darkgreen;
+
+}
+.addmore{
+  border-color: darkgreen;
+}
+.addmore textarea{ border-color:#6A7535; 
+background-color: #EBF9A9 
+}
+.button{
+background-color:darkgreen;
+margin: 8;
+color: lightgreen;
+border-color: darkgreen;
+}
